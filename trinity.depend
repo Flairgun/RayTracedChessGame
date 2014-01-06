@@ -1,0 +1,776 @@
+# depslib dependency file v1.0
+1389020751 source:d:\programming\raytracingfmi\trinity\src\bitmap.cpp
+	<stdio.h>
+	<string.h>
+	<vector>
+	"color.h"
+	"constants.h"
+	"bitmap.h"
+	<ImfRgbaFile.h>
+	<ImfArray.h>
+	<Iex.h>
+
+1389020751 d:\programming\raytracingfmi\trinity\src\color.h
+	"util.h"
+
+1389020751 d:\programming\raytracingfmi\trinity\src\util.h
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+	<string>
+	"constants.h"
+
+1389020751 d:\programming\raytracingfmi\trinity\src\constants.h
+
+1389020751 d:\programming\raytracingfmi\trinity\src\bitmap.h
+	<functional>
+	"color.h"
+
+1371581500 l:\openexr-mingw\include\openexr\imfrgbafile.h
+	"ImfHeader.h"
+	"ImfFrameBuffer.h"
+	"ImfRgba.h"
+	"ImathVec.h"
+	"ImathBox.h"
+	"half.h"
+	"ImfThreading.h"
+	<string>
+	"ImfNamespace.h"
+	"ImfForward.h"
+
+1371581500 l:\openexr-mingw\include\openexr\imfheader.h
+	"ImfLineOrder.h"
+	"ImfCompression.h"
+	"ImfName.h"
+	"ImfTileDescription.h"
+	"ImfInt64.h"
+	"ImathVec.h"
+	"ImathBox.h"
+	"IexBaseExc.h"
+	"ImfForward.h"
+	"ImfNamespace.h"
+	"ImfExport.h"
+	<map>
+	<iosfwd>
+	<string>
+
+1371581500 l:\openexr-mingw\include\openexr\imflineorder.h
+	"ImfNamespace.h"
+
+1373584144 l:\openexr-mingw\include\openexr\imfnamespace.h
+	"OpenEXRConfig.h"
+
+1385254526 l:\openexr-mingw\include\openexr\openexrconfig.h
+
+1371581500 l:\openexr-mingw\include\openexr\imfcompression.h
+	"ImfNamespace.h"
+
+1371581500 l:\openexr-mingw\include\openexr\imfname.h
+	<string.h>
+	"ImfNamespace.h"
+
+1371581500 l:\openexr-mingw\include\openexr\imftiledescription.h
+	"ImfNamespace.h"
+
+1371581500 l:\openexr-mingw\include\openexr\imfint64.h
+	"ImathInt64.h"
+	"ImfNamespace.h"
+
+1371581498 l:\openexr-mingw\include\openexr\imathint64.h
+	"ImathNamespace.h"
+	<limits.h>
+
+1371581498 l:\openexr-mingw\include\openexr\imathnamespace.h
+	"IlmBaseConfig.h"
+
+1371581498 l:\openexr-mingw\include\openexr\ilmbaseconfig.h
+
+1371581498 l:\openexr-mingw\include\openexr\imathvec.h
+	"ImathExc.h"
+	"ImathLimits.h"
+	"ImathMath.h"
+	"ImathNamespace.h"
+	<iostream>
+
+1371581498 l:\openexr-mingw\include\openexr\imathexc.h
+	"ImathNamespace.h"
+	"IexBaseExc.h"
+	"ImathExport.h"
+
+1371581498 l:\openexr-mingw\include\openexr\iexbaseexc.h
+	"IexNamespace.h"
+	"IexExport.h"
+	<string>
+	<exception>
+	<sstream>
+
+1371581498 l:\openexr-mingw\include\openexr\iexnamespace.h
+	"IlmBaseConfig.h"
+
+1371581498 l:\openexr-mingw\include\openexr\iexexport.h
+
+1371581498 l:\openexr-mingw\include\openexr\imathexport.h
+
+1371581498 l:\openexr-mingw\include\openexr\imathlimits.h
+	"ImathNamespace.h"
+	<float.h>
+	<limits.h>
+
+1371581498 l:\openexr-mingw\include\openexr\imathmath.h
+	"ImathPlatform.h"
+	"ImathLimits.h"
+	"ImathNamespace.h"
+	<math.h>
+
+1371581498 l:\openexr-mingw\include\openexr\imathplatform.h
+	<math.h>
+
+1371581498 l:\openexr-mingw\include\openexr\imathbox.h
+	"ImathVec.h"
+	"ImathNamespace.h"
+
+1371581500 l:\openexr-mingw\include\openexr\imfforward.h
+	"ImfNamespace.h"
+
+1371581500 l:\openexr-mingw\include\openexr\imfexport.h
+
+1371581500 l:\openexr-mingw\include\openexr\imfframebuffer.h
+	"ImfName.h"
+	"ImfPixelType.h"
+	"ImfExport.h"
+	"ImfNamespace.h"
+	<map>
+	<string>
+
+1371581500 l:\openexr-mingw\include\openexr\imfpixeltype.h
+	"ImfNamespace.h"
+
+1371581500 l:\openexr-mingw\include\openexr\imfrgba.h
+	"half.h"
+	"ImfNamespace.h"
+
+1371581498 l:\openexr-mingw\include\openexr\half.h
+	"halfExport.h"
+	<iostream>
+
+1385253212 l:\openexr-mingw\include\openexr\halfexport.h
+
+1371581500 l:\openexr-mingw\include\openexr\imfthreading.h
+	"ImfExport.h"
+	"ImfNamespace.h"
+
+1371581500 l:\openexr-mingw\include\openexr\imfarray.h
+	"ImfForward.h"
+
+1371581498 l:\openexr-mingw\include\openexr\iex.h
+	"IexMacros.h"
+	"IexBaseExc.h"
+	"IexMathExc.h"
+	"IexThrowErrnoExc.h"
+
+1371581498 l:\openexr-mingw\include\openexr\iexmacros.h
+	<sstream>
+	"IexExport.h"
+	"IexForward.h"
+
+1371581498 l:\openexr-mingw\include\openexr\iexforward.h
+	"IexNamespace.h"
+
+1371581498 l:\openexr-mingw\include\openexr\iexmathexc.h
+	"IexBaseExc.h"
+
+1371581498 l:\openexr-mingw\include\openexr\iexthrowerrnoexc.h
+	"IexBaseExc.h"
+	"IexExport.h"
+
+1389020751 source:d:\programming\raytracingfmi\trinity\src\camera.cpp
+	"camera.h"
+	"matrix.h"
+	"util.h"
+	"sdl.h"
+	"random_generator.h"
+
+1389020751 d:\programming\raytracingfmi\trinity\src\camera.h
+	"vector.h"
+	"scene.h"
+
+1389020751 d:\programming\raytracingfmi\trinity\src\vector.h
+	<math.h>
+	<ostream>
+	<iomanip>
+
+1389020751 d:\programming\raytracingfmi\trinity\src\scene.h
+	<vector>
+	<limits.h>
+	"color.h"
+	"vector.h"
+
+1389020751 d:\programming\raytracingfmi\trinity\src\matrix.h
+	"vector.h"
+
+1389020751 d:\programming\raytracingfmi\trinity\src\sdl.h
+	"color.h"
+	"bitmap.h"
+	"constants.h"
+	<vector>
+
+1389020751 d:\programming\raytracingfmi\trinity\src\random_generator.h
+	<random>
+
+1389020751 source:d:\programming\raytracingfmi\trinity\src\environment.cpp
+	<string.h>
+	"environment.h"
+	"bitmap.h"
+
+1389020751 d:\programming\raytracingfmi\trinity\src\environment.h
+	"color.h"
+	"vector.h"
+	"scene.h"
+
+1389020751 source:d:\programming\raytracingfmi\trinity\src\geometry.cpp
+	"geometry.h"
+	"constants.h"
+	"vector.h"
+	<vector>
+	<algorithm>
+
+1389020751 d:\programming\raytracingfmi\trinity\src\geometry.h
+	<vector>
+	"vector.h"
+	"scene.h"
+	"transform.h"
+
+1389020751 d:\programming\raytracingfmi\trinity\src\transform.h
+	"vector.h"
+	"matrix.h"
+	"util.h"
+
+1389020751 source:d:\programming\raytracingfmi\trinity\src\heightfield.cpp
+	<SDL/SDL.h>
+	"heightfield.h"
+	"bitmap.h"
+
+1325738640 l:\sdl-1.2.15\include\sdl\sdl.h
+	"SDL_main.h"
+	"SDL_stdinc.h"
+	"SDL_audio.h"
+	"SDL_cdrom.h"
+	"SDL_cpuinfo.h"
+	"SDL_endian.h"
+	"SDL_error.h"
+	"SDL_events.h"
+	"SDL_loadso.h"
+	"SDL_mutex.h"
+	"SDL_rwops.h"
+	"SDL_thread.h"
+	"SDL_timer.h"
+	"SDL_video.h"
+	"SDL_version.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325738640 l:\sdl-1.2.15\include\sdl\sdl_main.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325738640 l:\sdl-1.2.15\include\sdl\sdl_stdinc.h
+	"SDL_config.h"
+	<sys/types.h>
+	<stdio.h>
+	<stdlib.h>
+	<stddef.h>
+	<stdarg.h>
+	<stdlib.h>
+	<malloc.h>
+	<stddef.h>
+	<stdarg.h>
+	<memory.h>
+	<string.h>
+	<strings.h>
+	<inttypes.h>
+	<stdint.h>
+	<ctype.h>
+	<iconv.h>
+	"begin_code.h"
+	<alloca.h>
+	<malloc.h>
+	<malloc.h>
+	<malloc.h>
+	<stdlib.h>
+	"close_code.h"
+
+1326110988 l:\sdl-1.2.15\include\sdl\sdl_config.h
+	"SDL_platform.h"
+	"SDL_config_dreamcast.h"
+	"SDL_config_macos.h"
+	"SDL_config_macosx.h"
+	"SDL_config_symbian.h"
+	"SDL_config_win32.h"
+	"SDL_config_os2.h"
+	"SDL_config_minimal.h"
+
+1325738640 l:\sdl-1.2.15\include\sdl\sdl_platform.h
+
+1326110994 l:\sdl-1.2.15\include\sdl\sdl_config_win32.h
+	"SDL_platform.h"
+
+1326111000 l:\sdl-1.2.15\include\sdl\begin_code.h
+
+1325738640 l:\sdl-1.2.15\include\sdl\close_code.h
+
+1325738640 l:\sdl-1.2.15\include\sdl\sdl_audio.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_endian.h"
+	"SDL_mutex.h"
+	"SDL_thread.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325738640 l:\sdl-1.2.15\include\sdl\sdl_error.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325738640 l:\sdl-1.2.15\include\sdl\sdl_endian.h
+	"SDL_stdinc.h"
+	<endian.h>
+	"begin_code.h"
+	"close_code.h"
+
+1325738640 l:\sdl-1.2.15\include\sdl\sdl_mutex.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325738640 l:\sdl-1.2.15\include\sdl\sdl_thread.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_mutex.h"
+	"begin_code.h"
+	<process.h>
+	"close_code.h"
+
+1325738640 l:\sdl-1.2.15\include\sdl\sdl_rwops.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325738640 l:\sdl-1.2.15\include\sdl\sdl_cdrom.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325738640 l:\sdl-1.2.15\include\sdl\sdl_cpuinfo.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325738640 l:\sdl-1.2.15\include\sdl\sdl_events.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_active.h"
+	"SDL_keyboard.h"
+	"SDL_mouse.h"
+	"SDL_joystick.h"
+	"SDL_quit.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325738640 l:\sdl-1.2.15\include\sdl\sdl_active.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325738640 l:\sdl-1.2.15\include\sdl\sdl_keyboard.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_keysym.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325738640 l:\sdl-1.2.15\include\sdl\sdl_keysym.h
+
+1325738640 l:\sdl-1.2.15\include\sdl\sdl_mouse.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325738640 l:\sdl-1.2.15\include\sdl\sdl_video.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325738640 l:\sdl-1.2.15\include\sdl\sdl_joystick.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325738640 l:\sdl-1.2.15\include\sdl\sdl_quit.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+
+1325738640 l:\sdl-1.2.15\include\sdl\sdl_loadso.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325738640 l:\sdl-1.2.15\include\sdl\sdl_timer.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325738640 l:\sdl-1.2.15\include\sdl\sdl_version.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1389020751 d:\programming\raytracingfmi\trinity\src\heightfield.h
+	"geometry.h"
+	"bbox.h"
+
+1389020751 d:\programming\raytracingfmi\trinity\src\bbox.h
+	<algorithm>
+	<string>
+	"vector.h"
+	"util.h"
+
+1389020751 source:d:\programming\raytracingfmi\trinity\src\lights.cpp
+	"lights.h"
+	"random_generator.h"
+
+1389020751 d:\programming\raytracingfmi\trinity\src\lights.h
+	"vector.h"
+	"scene.h"
+	"transform.h"
+
+1389020751 source:d:\programming\raytracingfmi\trinity\src\main.cpp
+	<SDL/SDL.h>
+	<vector>
+	<iostream>
+	"sdl.h"
+	"matrix.h"
+	"camera.h"
+	"geometry.h"
+	"shading.h"
+	"environment.h"
+	"mesh.h"
+	"random_generator.h"
+	"scene.h"
+
+1389020751 d:\programming\raytracingfmi\trinity\src\shading.h
+	"color.h"
+	"vector.h"
+	"geometry.h"
+	"bitmap.h"
+
+1389020751 d:\programming\raytracingfmi\trinity\src\mesh.h
+	<vector>
+	"vector.h"
+	"geometry.h"
+	"bbox.h"
+
+1389020751 source:d:\programming\raytracingfmi\trinity\src\matrix.cpp
+	<math.h>
+	"matrix.h"
+
+1389020751 source:d:\programming\raytracingfmi\trinity\src\mesh.cpp
+	<stdio.h>
+	<string.h>
+	<algorithm>
+	<string>
+	<vector>
+	<SDL/SDL.h>
+	"mesh.h"
+	"constants.h"
+	"color.h"
+	"bbox.h"
+
+1389020751 source:d:\programming\raytracingfmi\trinity\src\random_generator.cpp
+	<math.h>
+	<SDL/SDL.h>
+	"random_generator.h"
+	"constants.h"
+	<time.h>
+	<stdio.h>
+	<SDL/SDL.h>
+	"constants.h"
+	"color.h"
+	"sdl.h"
+
+1389020751 source:d:\programming\raytracingfmi\trinity\src\scene.cpp
+	<stdio.h>
+	<ctype.h>
+	<vector>
+	<string>
+	<string.h>
+	<stdarg.h>
+	<sys/types.h>
+	<sys/stat.h>
+	"scene.h"
+	"transform.h"
+	"bitmap.h"
+	"constants.h"
+	"camera.h"
+	"geometry.h"
+	"shading.h"
+	"environment.h"
+	"mesh.h"
+	"util.h"
+	"sdl.h"
+	"mesh.h"
+	"random_generator.h"
+	"heightfield.h"
+	"lights.h"
+	<assert.h>
+
+1389020751 source:d:\programming\raytracingfmi\trinity\src\sdl.cpp
+	<SDL/SDL.h>
+	<stdio.h>
+	<algorithm>
+	<windows.h>
+	"sdl.h"
+
+1389020751 source:d:\programming\raytracingfmi\trinity\src\shading.cpp
+	<string.h>
+	"lights.h"
+	"shading.h"
+	"random_generator.h"
+
+1389020751 source:d:\programming\raytracingfmi\trinity\src\util.cpp
+	<stdio.h>
+	<string.h>
+	<ctype.h>
+	<sys/types.h>
+	<sys/stat.h>
+	<string>
+
+1389020751 source:d:\programming\raytracingfmi\course project\raytracedchessgame\src\bitmap.cpp
+	<stdio.h>
+	<string.h>
+	<vector>
+	"color.h"
+	"constants.h"
+	"bitmap.h"
+	<ImfRgbaFile.h>
+	<ImfArray.h>
+	<Iex.h>
+
+1389020751 d:\programming\raytracingfmi\course project\raytracedchessgame\src\color.h
+	"util.h"
+
+1389020751 d:\programming\raytracingfmi\course project\raytracedchessgame\src\util.h
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+	<string>
+	"constants.h"
+
+1389020751 d:\programming\raytracingfmi\course project\raytracedchessgame\src\constants.h
+
+1389020751 d:\programming\raytracingfmi\course project\raytracedchessgame\src\bitmap.h
+	<functional>
+	"color.h"
+
+1389020751 source:d:\programming\raytracingfmi\course project\raytracedchessgame\src\camera.cpp
+	"camera.h"
+	"matrix.h"
+	"util.h"
+	"sdl.h"
+	"random_generator.h"
+
+1389020751 d:\programming\raytracingfmi\course project\raytracedchessgame\src\camera.h
+	"vector.h"
+	"scene.h"
+
+1389020751 d:\programming\raytracingfmi\course project\raytracedchessgame\src\vector.h
+	<math.h>
+	<ostream>
+	<iomanip>
+
+1389020751 d:\programming\raytracingfmi\course project\raytracedchessgame\src\scene.h
+	<vector>
+	<limits.h>
+	"color.h"
+	"vector.h"
+
+1389020751 d:\programming\raytracingfmi\course project\raytracedchessgame\src\matrix.h
+	"vector.h"
+
+1389020751 d:\programming\raytracingfmi\course project\raytracedchessgame\src\sdl.h
+	"color.h"
+	"bitmap.h"
+	"constants.h"
+	<vector>
+
+1389020751 d:\programming\raytracingfmi\course project\raytracedchessgame\src\random_generator.h
+	<random>
+
+1389020751 source:d:\programming\raytracingfmi\course project\raytracedchessgame\src\environment.cpp
+	<string.h>
+	"environment.h"
+	"bitmap.h"
+
+1389020751 d:\programming\raytracingfmi\course project\raytracedchessgame\src\environment.h
+	"color.h"
+	"vector.h"
+	"scene.h"
+
+1389020751 source:d:\programming\raytracingfmi\course project\raytracedchessgame\src\geometry.cpp
+	"geometry.h"
+	"constants.h"
+	"vector.h"
+	<vector>
+	<algorithm>
+
+1389020751 d:\programming\raytracingfmi\course project\raytracedchessgame\src\geometry.h
+	<vector>
+	"vector.h"
+	"scene.h"
+	"transform.h"
+
+1389020751 d:\programming\raytracingfmi\course project\raytracedchessgame\src\transform.h
+	"vector.h"
+	"matrix.h"
+	"util.h"
+
+1389020751 source:d:\programming\raytracingfmi\course project\raytracedchessgame\src\heightfield.cpp
+	<SDL/SDL.h>
+	"heightfield.h"
+	"bitmap.h"
+
+1389020751 d:\programming\raytracingfmi\course project\raytracedchessgame\src\heightfield.h
+	"geometry.h"
+	"bbox.h"
+
+1389020751 d:\programming\raytracingfmi\course project\raytracedchessgame\src\bbox.h
+	<algorithm>
+	<string>
+	"vector.h"
+	"util.h"
+
+1389020751 source:d:\programming\raytracingfmi\course project\raytracedchessgame\src\lights.cpp
+	"lights.h"
+	"random_generator.h"
+
+1389020751 d:\programming\raytracingfmi\course project\raytracedchessgame\src\lights.h
+	"vector.h"
+	"scene.h"
+	"transform.h"
+
+1389020751 source:d:\programming\raytracingfmi\course project\raytracedchessgame\src\main.cpp
+	<SDL/SDL.h>
+	<vector>
+	<iostream>
+	"sdl.h"
+	"matrix.h"
+	"camera.h"
+	"geometry.h"
+	"shading.h"
+	"environment.h"
+	"mesh.h"
+	"random_generator.h"
+	"scene.h"
+
+1389020751 d:\programming\raytracingfmi\course project\raytracedchessgame\src\shading.h
+	"color.h"
+	"vector.h"
+	"geometry.h"
+	"bitmap.h"
+
+1389020751 d:\programming\raytracingfmi\course project\raytracedchessgame\src\mesh.h
+	<vector>
+	"vector.h"
+	"geometry.h"
+	"bbox.h"
+
+1389020751 source:d:\programming\raytracingfmi\course project\raytracedchessgame\src\matrix.cpp
+	<math.h>
+	"matrix.h"
+
+1389020751 source:d:\programming\raytracingfmi\course project\raytracedchessgame\src\mesh.cpp
+	<stdio.h>
+	<string.h>
+	<algorithm>
+	<string>
+	<vector>
+	<SDL/SDL.h>
+	"mesh.h"
+	"constants.h"
+	"color.h"
+	"bbox.h"
+
+1389020751 source:d:\programming\raytracingfmi\course project\raytracedchessgame\src\random_generator.cpp
+	<math.h>
+	<SDL/SDL.h>
+	"random_generator.h"
+	"constants.h"
+	<time.h>
+	<stdio.h>
+	<SDL/SDL.h>
+	"constants.h"
+	"color.h"
+	"sdl.h"
+
+1389020751 source:d:\programming\raytracingfmi\course project\raytracedchessgame\src\scene.cpp
+	<stdio.h>
+	<ctype.h>
+	<vector>
+	<string>
+	<string.h>
+	<stdarg.h>
+	<sys/types.h>
+	<sys/stat.h>
+	"scene.h"
+	"transform.h"
+	"bitmap.h"
+	"constants.h"
+	"camera.h"
+	"geometry.h"
+	"shading.h"
+	"environment.h"
+	"mesh.h"
+	"util.h"
+	"sdl.h"
+	"mesh.h"
+	"random_generator.h"
+	"heightfield.h"
+	"lights.h"
+	<assert.h>
+
+1389020751 source:d:\programming\raytracingfmi\course project\raytracedchessgame\src\sdl.cpp
+	<SDL/SDL.h>
+	<stdio.h>
+	<algorithm>
+	<windows.h>
+	"sdl.h"
+
+1389020751 source:d:\programming\raytracingfmi\course project\raytracedchessgame\src\shading.cpp
+	<string.h>
+	"lights.h"
+	"shading.h"
+	"random_generator.h"
+
+1389020751 source:d:\programming\raytracingfmi\course project\raytracedchessgame\src\util.cpp
+	<stdio.h>
+	<string.h>
+	<ctype.h>
+	<sys/types.h>
+	<sys/stat.h>
+	<string>
+
