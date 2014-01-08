@@ -17,6 +17,7 @@
  *   Free Software Foundation, Inc.,                                       *
  *   59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.             *
  ***************************************************************************/
+//!-> this is a test row for comitting in git
 
 #include <SDL/SDL.h>
 #include <vector>
@@ -39,14 +40,14 @@ Color raytrace(Ray ray)
 {
 	IntersectionData data;
 	Node* closestNode = NULL;
-	
+
 	if (ray.depth > scene.settings.maxTraceDepth) return Color(0, 0, 0);
 
 	if (ray.flags & RF_DEBUG)
 		cout << "  Raytrace[start = " << ray.start << ", dir = " << ray.dir << "]\n";
 
 	data.dist = 1e99;
-	
+
 	// find closest intersection point:
 	for (int i = 0; i < (int) scene.nodes.size(); i++)
 		if (scene.nodes[i]->intersect(ray, data))
@@ -57,18 +58,18 @@ Color raytrace(Ray ray)
 		if (scene.environment != NULL) return scene.environment->getEnvironment(ray.dir);
 		return Color(0, 0, 0);
 	}
-	
+
 	if (ray.flags & RF_DEBUG) {
 		cout << "    Hit " << closestNode->geom->getName() << " at distance " << fixed << setprecision(2) << data.dist << endl;
 		cout << "      Intersection point: " << data.p << endl;
 		cout << "      Normal:             " << data.normal << endl;
 		cout << "      UV coods:           " << data.u << ", " << data.v << endl;
 	}
-	
+
 	// if the node we hit has a bump map, apply it here:
 	if (closestNode->bump)
 		closestNode->bump->modifyNormal(data);
-	
+
 	// use the shader of the closest node to shade the intersection:
 	return closestNode->shader->shade(ray, data);
 }
@@ -82,16 +83,16 @@ bool testVisibility(const Vector& from, const Vector& to)
 	ray.dir = to - from;
 	ray.dir.normalize();
 	ray.flags |= RF_SHADOW;
-	
+
 	IntersectionData temp;
 	temp.dist = (to - from).length();
-	
+
 	// if there's any obstacle between from and to, the points aren't visible.
 	// we can stop at the first such object, since we don't care about the distance.
 	for (int i = 0; i < (int) scene.nodes.size(); i++)
 		if (scene.nodes[i]->intersect(ray, temp))
 			return false;
-	
+
 	return true;
 }
 
@@ -107,7 +108,7 @@ inline bool tooDifferent(const Color& a, const Color& b)
 
 		// compare a single channel of the two colors. If the difference between them is large,
 		// but they aren't overexposed, the difference will be visible: needs anti-aliasing.
-		if (theMax - theMin > THRESHOLD && theMin < 1.33f) 
+		if (theMax - theMin > THRESHOLD && theMin < 1.33f)
 			return true;
 	}
 	return false;
@@ -144,7 +145,7 @@ Color renderSample(double x, double y)
 		if (scene.camera->stereoSeparation == 0)
 			return raytrace(scene.camera->getScreenRay(x, y));
 		else
-			// trace one ray through the left camera and one ray through the right, then combine the results	
+			// trace one ray through the left camera and one ray through the right, then combine the results
 			return combineStereo(
 				raytrace(scene.camera->getScreenRay(x, y, CAMERA_LEFT)),
 				raytrace(scene.camera->getScreenRay(x, y, CAMERA_RIGHT))
@@ -184,7 +185,7 @@ void renderScene(void)
 {
 	int W = frameWidth();
 	int H = frameHeight();
-	
+
 	std::vector<Rect> buckets = getBucketsList();
 	if (scene.settings.wantPrepass) {
 		// We render the whole screen in three passes.
@@ -203,7 +204,7 @@ void renderScene(void)
 		}
 	}
 
-	
+
 	// first pass: shoot just one ray per pixel
 	for (size_t i = 0; i < buckets.size(); i++) {
 		const Rect& r = buckets[i];
@@ -220,19 +221,19 @@ void renderScene(void)
 			for (int x = 0; x < W; x++) {
 				Color neighs[5];
 				neighs[0] = vfb[y][x];
-				
+
 				neighs[1] = vfb[y][x     > 0 ? x - 1 : x];
 				neighs[2] = vfb[y][x + 1 < W ? x + 1 : x];
 
 				neighs[3] = vfb[y     > 0 ? y - 1 : y][x];
 				neighs[4] = vfb[y + 1 < H ? y + 1 : y][x];
-				
+
 				Color average(0, 0, 0);
-				
+
 				for (int i = 0; i < 5; i++)
 					average += neighs[i];
 				average /= 5.0f;
-				
+
 				for (int i = 0; i < 5; i++) {
 					if (tooDifferent(neighs[i], average)) {
 						needsAA[y][x] = true;
@@ -244,14 +245,14 @@ void renderScene(void)
 	}
 
 	bool previewAA = false; // change to true to make it just display which pixels are selected for anti-aliasing
-	
+
 	if (previewAA) {
 		for (int y = 0; y < H; y++)
 			for (int x = 0; x < W; x++)
 				if (needsAA[y][x])
 					vfb[y][x] = Color(1, 0, 0);
 	} else {
-		/* 
+		/*
 		 * A third pass, shooting additional rays for pixels that need them.
 		 * Note that all pixels already are sampled with a ray at offset (0, 0),
 		 * which coincides with sample #0 of our antialiasing kernel. So, instead

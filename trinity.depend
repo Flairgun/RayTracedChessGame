@@ -774,3 +774,217 @@
 	<sys/stat.h>
 	<string>
 
+1389199661 source:d:\develop\raytracechess\src\bitmap.cpp
+	<stdio.h>
+	<string.h>
+	<vector>
+	"color.h"
+	"constants.h"
+	"bitmap.h"
+	<ImfRgbaFile.h>
+	<ImfArray.h>
+	<Iex.h>
+
+1389199661 d:\develop\raytracechess\src\color.h
+	"util.h"
+
+1389199661 d:\develop\raytracechess\src\util.h
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+	<string>
+	"constants.h"
+
+1389199661 d:\develop\raytracechess\src\constants.h
+
+1389199661 d:\develop\raytracechess\src\bitmap.h
+	<functional>
+	"color.h"
+
+1389199661 source:d:\develop\raytracechess\src\camera.cpp
+	"camera.h"
+	"matrix.h"
+	"util.h"
+	"sdl.h"
+	"random_generator.h"
+
+1389199661 d:\develop\raytracechess\src\camera.h
+	"vector.h"
+	"scene.h"
+
+1389199661 d:\develop\raytracechess\src\vector.h
+	<math.h>
+	<ostream>
+	<iomanip>
+
+1389199661 d:\develop\raytracechess\src\scene.h
+	<vector>
+	<limits.h>
+	"color.h"
+	"vector.h"
+
+1389199661 d:\develop\raytracechess\src\matrix.h
+	"vector.h"
+
+1389199661 d:\develop\raytracechess\src\sdl.h
+	"color.h"
+	"bitmap.h"
+	"constants.h"
+	<vector>
+
+1389199661 d:\develop\raytracechess\src\random_generator.h
+	<random>
+
+1389199661 source:d:\develop\raytracechess\src\environment.cpp
+	<string.h>
+	"environment.h"
+	"bitmap.h"
+
+1389199661 d:\develop\raytracechess\src\environment.h
+	"color.h"
+	"vector.h"
+	"scene.h"
+
+1389199661 source:d:\develop\raytracechess\src\geometry.cpp
+	"geometry.h"
+	"constants.h"
+	"vector.h"
+	<vector>
+	<algorithm>
+
+1389199661 d:\develop\raytracechess\src\geometry.h
+	<vector>
+	"vector.h"
+	"scene.h"
+	"transform.h"
+
+1389199661 d:\develop\raytracechess\src\transform.h
+	"vector.h"
+	"matrix.h"
+	"util.h"
+
+1389199661 source:d:\develop\raytracechess\src\heightfield.cpp
+	<SDL/SDL.h>
+	"heightfield.h"
+	"bitmap.h"
+
+1389199661 d:\develop\raytracechess\src\heightfield.h
+	"geometry.h"
+	"bbox.h"
+
+1389199661 d:\develop\raytracechess\src\bbox.h
+	<algorithm>
+	<string>
+	"vector.h"
+	"util.h"
+
+1389199661 source:d:\develop\raytracechess\src\lights.cpp
+	"lights.h"
+	"random_generator.h"
+
+1389199661 d:\develop\raytracechess\src\lights.h
+	"vector.h"
+	"scene.h"
+	"transform.h"
+
+1389199661 source:d:\develop\raytracechess\src\main.cpp
+	<SDL/SDL.h>
+	<vector>
+	<iostream>
+	"sdl.h"
+	"matrix.h"
+	"camera.h"
+	"geometry.h"
+	"shading.h"
+	"environment.h"
+	"mesh.h"
+	"random_generator.h"
+	"scene.h"
+
+1389199661 d:\develop\raytracechess\src\shading.h
+	"color.h"
+	"vector.h"
+	"geometry.h"
+	"bitmap.h"
+
+1389199661 d:\develop\raytracechess\src\mesh.h
+	<vector>
+	"vector.h"
+	"geometry.h"
+	"bbox.h"
+
+1389199661 source:d:\develop\raytracechess\src\matrix.cpp
+	<math.h>
+	"matrix.h"
+
+1389199661 source:d:\develop\raytracechess\src\mesh.cpp
+	<stdio.h>
+	<string.h>
+	<algorithm>
+	<string>
+	<vector>
+	<SDL/SDL.h>
+	"mesh.h"
+	"constants.h"
+	"color.h"
+	"bbox.h"
+
+1389199661 source:d:\develop\raytracechess\src\random_generator.cpp
+	<math.h>
+	<SDL/SDL.h>
+	"random_generator.h"
+	"constants.h"
+	<time.h>
+	<stdio.h>
+	<SDL/SDL.h>
+	"constants.h"
+	"color.h"
+	"sdl.h"
+
+1389199661 source:d:\develop\raytracechess\src\scene.cpp
+	<stdio.h>
+	<ctype.h>
+	<vector>
+	<string>
+	<string.h>
+	<stdarg.h>
+	<sys/types.h>
+	<sys/stat.h>
+	"scene.h"
+	"transform.h"
+	"bitmap.h"
+	"constants.h"
+	"camera.h"
+	"geometry.h"
+	"shading.h"
+	"environment.h"
+	"mesh.h"
+	"util.h"
+	"sdl.h"
+	"mesh.h"
+	"random_generator.h"
+	"heightfield.h"
+	"lights.h"
+	<assert.h>
+
+1389199661 source:d:\develop\raytracechess\src\sdl.cpp
+	<SDL/SDL.h>
+	<stdio.h>
+	<algorithm>
+	<windows.h>
+	"sdl.h"
+
+1389199661 source:d:\develop\raytracechess\src\shading.cpp
+	<string.h>
+	"lights.h"
+	"shading.h"
+	"random_generator.h"
+
+1389199661 source:d:\develop\raytracechess\src\util.cpp
+	<stdio.h>
+	<string.h>
+	<ctype.h>
+	<sys/types.h>
+	<sys/stat.h>
+	<string>
+
